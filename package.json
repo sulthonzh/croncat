@@ -25,5 +25,23 @@
   "devDependencies": {
     "@types/node": "^25.9.1",
     "typescript": "^6.0.3"
+  },
+  "files": [
+    "dist/cli.js",
+    "dist/index.js",
+    "dist/index.d.ts",
+    "dist/parser.js",
+    "dist/parser.d.ts",
+    "dist/cli.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/croncat"
+  },
+  "homepage": "https://github.com/sulthonzh/croncat#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/croncat/issues"
   }
 }
