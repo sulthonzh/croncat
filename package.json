@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node --test dist/test/*.test.js"
+    "test": "node --test dist/test/*.test.js",
+    "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [
     "cron",
